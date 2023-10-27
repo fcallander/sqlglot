@@ -59,6 +59,7 @@ logic for some expressions; this is usually done by adding new entries to the `T
 from sqlglot.dialects.bigquery import BigQuery
 from sqlglot.dialects.clickhouse import ClickHouse
 from sqlglot.dialects.databricks import Databricks
+from sqlglot.dialects.db2 import DB2
 from sqlglot.dialects.dialect import Dialect, Dialects
 from sqlglot.dialects.doris import Doris
 from sqlglot.dialects.drill import Drill

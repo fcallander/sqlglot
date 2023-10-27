@@ -30,7 +30,7 @@ def _parse_xml_table(self: db2.Parser) -> exp.XMLTable:
     return self.expression(exp.XMLTable, this=this, passing=passing, columns=columns, by_ref=by_ref)
 
 
-class db2(Dialect):
+class DB2(Dialect):
     ALIAS_POST_TABLESAMPLE = True
     LOCKING_READS_SUPPORTED = True
 
