@@ -11,7 +11,7 @@ if t.TYPE_CHECKING:
     from sqlglot._typing import E
 
 
-def _parse_xml_table(self: db2.Parser) -> exp.XMLTable:
+def _parse_xml_table(self: DB2.Parser) -> exp.XMLTable:
     this = self._parse_string()
 
     passing = None
